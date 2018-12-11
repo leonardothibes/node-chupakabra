@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "colors": "^1.3.3",
+    "console.table": "^0.10.0",
     "node-argv-fork": "^1.0.0"
   },
   "devDependencies": {
