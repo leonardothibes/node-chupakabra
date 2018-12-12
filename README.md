@@ -22,13 +22,6 @@ or
 chupakabra -p 8000 # choosing port 8000
 ```
 
-Test and development
---------------------
-
-* Install external dependencies: **``npm install``**
-* Run the test suite without coverage: **``npm test``**
-* Run the test suite with coverage: **``npm run testdox``**
-
 How to Contribute
 -----------------
 
