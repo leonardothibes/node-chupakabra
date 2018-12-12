@@ -1,6 +1,6 @@
 {
   "name": "chupakabra",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Listens HTTP requests and prints the contents to the console",
   "main": "index.js",
   "homepage": "https://www.npmjs.com/package/chupakabra",
@@ -19,7 +19,6 @@
     "listen"
   ],
   "scripts": {
-    "postinstall": "chmod 755 ./bin/*",
     "lint": "./node_modules/.bin/jshint --config .jshintrc *.js ./lib/*.js",
     "test": "clear ; ./node_modules/.bin/mocha test --recursive --reporter dot",
     "testdox": "clear ; ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test -- --recursive --reporter spec",
