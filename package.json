@@ -1,11 +1,12 @@
 {
   "name": "chupakabra",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Listens HTTP requests and prints the contents to the console",
   "main": "index.js",
   "homepage": "https://www.npmjs.com/package/chupakabra",
   "author": "Leonardo Thibes <leonardothibes@gmail.com>",
   "license": "MIT",
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leonardothibes/chupakabra.git"
