@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "description": "Listens HTTP requests and prints the contents to the console",
   "main": "index.js",
-  "homepage": "https://github.com/leonardothibes/chupakabra#readme",
+  "homepage": "https://www.npmjs.com/package/chupakabra",
   "author": "Leonardo Thibes <leonardothibes@gmail.com>",
   "license": "MIT",
   "repository": {
