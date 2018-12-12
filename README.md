@@ -6,7 +6,7 @@ Installation
 ------------
 
 ```bash
-npm install chupakabra --save
+npm install chupakabra -g
 ```
 
 Examples
