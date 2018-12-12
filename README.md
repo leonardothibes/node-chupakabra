@@ -12,13 +12,14 @@ npm install chupakabra --save
 Examples
 --------
 
-* [Some function](#some-function)
+```bash
+chupakabra # listen default port 9000
+```
 
-Some function
--------------
+or 
 
-```js
-// Aqui vão os exemplos de uso.
+```bash
+chupakabra -p 8000 # choosing port 8000
 ```
 
 Test and development
