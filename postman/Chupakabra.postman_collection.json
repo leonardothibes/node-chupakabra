@@ -1,0 +1,354 @@
+{
+	"info": {
+		"_postman_id": "796fad90-30ee-4003-afd8-753f06b9f311",
+		"name": "Chupakabra",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:9000/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Json",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"foo\": \"bar\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18&debug=true",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						},
+						{
+							"key": "debug",
+							"value": "true"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Json no params",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"foo\": \"bar\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST - Text",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "this is my request body"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - Json",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"foo\": \"bar\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT - Text",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "this is my request body"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH - Json",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"foo\": \"bar\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PATCH - Text",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "this is my request body"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - Json",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"foo\": \"bar\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE - Text",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "this is my request body"
+				},
+				"url": {
+					"raw": "http://localhost:9000/some-endpoint?name=john&age=18",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9000",
+					"path": [
+						"some-endpoint"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "john"
+						},
+						{
+							"key": "age",
+							"value": "18"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
