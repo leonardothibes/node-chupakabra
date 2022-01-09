@@ -2,7 +2,7 @@
   "name": "chupakabra",
   "version": "1.1.0",
   "description": "Listens HTTP requests and prints the contents to the console",
-  "main": "index.js",
+  "main": "bin/chupakabra",
   "homepage": "https://www.npmjs.com/package/chupakabra",
   "author": "Leonardo Thibes <leonardothibes@gmail.com>",
   "license": "MIT",
