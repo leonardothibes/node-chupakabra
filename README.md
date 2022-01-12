@@ -1,4 +1,4 @@
-# Chupakabra [![npm](http://img.shields.io/npm/v/chupakabra.svg)](https://www.npmjs.com/package/chupakabra) ![Downloads](https://img.shields.io/npm/dm/chupakabra.svg) [![Package Quality](http://npm.packagequality.com/shield/chupakabra.svg)](http://packagequality.com/#?package=chupakabra) [![License](https://img.shields.io/npm/l/chupakabra.svg)](LICENSE)
+# Chupakabra [![npm](http://img.shields.io/npm/v/chupakabra.svg)](https://www.npmjs.com/package/chupakabra) ![Downloads](https://img.shields.io/npm/dm/chupakabra.svg) [![License](https://img.shields.io/npm/l/chupakabra.svg)](LICENSE)
 
 A simple http server that listens HTTP requests and prints the contents to the console.
 
@@ -36,7 +36,7 @@ Contributors
 LICENSE
 =======
 
-Copyright (c) 2018 Leonardo Thibes
+Copyright (c) 2018-2022 Leonardo Thibes
 
 The MIT License
 
